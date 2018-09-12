@@ -1,0 +1,34 @@
+{
+	"name": "Weather Now",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"description": "To display realtime weather as icon",
+	"permissions": ["geolocation"],
+	"background": {
+		"scripts": ["dist/background.js"],
+		"persistent": false
+	},
+	"browser_action": {
+		"default_icon": {
+		  "16": "images/Clear.png",
+		  "32": "images/Clear.png",
+		  "48": "images/Clear.png"
+		},
+		"default_title": "Show Detail",    // optional; shown in tooltip
+		"default_popup": "dist/popup.html" 
+	},
+	"content_scripts": [
+		{
+		  "matches": [
+		    "*://*/*"
+		  ],
+		  "js": ["dist/content.js"],
+		  "run_at": "document_end"
+		 }
+	],
+	"icons": {
+		"16": "images/Clear.png",
+		"32": "images/Clear.png",
+		"48": "images/Clear.png"
+	}
+}
