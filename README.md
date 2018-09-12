@@ -4,13 +4,13 @@
 This is an extension to show real-time weather as the icon in the menubar and click to display detailed info popup.
 
 Real-time Icon in menubar: 
-![alt text](descImgs/icon.png "Realtime Icon")
+![alt text](descImgs/icon.png "Realtime Icon"){ width=50% }
 
 Popup: daytime: 
-![alt text](descImgs/icon.png "Day Time Popup")
+![alt text](descImgs/popup-daytime.png "Day Time Popup"){ width=50% }
 
 Popup: nighttime: 
-![alt text](descImgs/icon.png "Night Time Popup")
+![alt text](descImgs/popup-nighttime.png "Night Time Popup"){ width=50% }
 
 
 ### Installation for development
