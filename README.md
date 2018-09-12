@@ -1,17 +1,13 @@
 # Weather Now Chrome Extension
 
-##Overlook
+## Overlook
 This is an extension to show real-time weather as the icon in the menubar and click to display detailed info popup.
 
-Real-time Icon in menubar: 
-![alt text](descImgs/icon.png "Realtime Icon"){ width=50% }
+Real-time Icon in menubar: <img src="descImgs/icon.png" width="40%">
 
-Popup: daytime: 
-![alt text](descImgs/popup-daytime.png "Day Time Popup"){ width=50% }
+Popup: daytime: <img src="descImgs/popup-daytime.png" width="40%">
 
-Popup: nighttime: 
-![alt text](descImgs/popup-nighttime.png "Night Time Popup"){ width=50% }
-
+Popup: nighttime: <img src="descImgs/popup-nighttime.png" width="40%">
 
 ### Installation for development
 download source code
